@@ -39,6 +39,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Areas\Language.cs" />
     <Compile Include="Areas\Security\Family.cs" />
     <Compile Include="Areas\IEntity.cs" />
     <Compile Include="Areas\Security\FamilyElement.cs" />
