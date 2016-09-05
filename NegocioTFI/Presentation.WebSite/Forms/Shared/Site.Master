@@ -43,17 +43,13 @@
         <div class="navbar navbar-inverse navbar-fixed-top">
             <div class="container">
                 <div class="navbar-header">
-                    <%--<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>--%>
                     <a class="navbar-brand" id="HomeLogo" runat="server" href="~/Forms/Default.aspx">SCULTURAL</a>
                 </div>
 
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
-                        <li><a runat="server" href="~/Forms/Default.aspx">Home</a></li>
+                        <li><a runat="server" href="~/Default.aspx">Home</a></li>
+                        <li><a runat="server" href="~/Forms/Login.aspx">Login</a></li>
                     </ul>
 
                 </div>
